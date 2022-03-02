@@ -115,7 +115,7 @@ int main()
 	int numWords = loadWords(wordList, MAXWORDS);
 	if (numWords < 1)
 	{
-		cout << "No words were loaded, so I can't play the games.";
+		cout << "No words were loaded, so I can't play the game.";
 		return 1;
 	}
 
